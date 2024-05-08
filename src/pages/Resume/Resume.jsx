@@ -10,8 +10,10 @@ import './Resume.css'
 const Resume = () => {
   return ( 
     <main>
+      <div className="resume-container">
       <h1>Brendan's Resume</h1>
       <Link><img src={resumeIcon} alt="a cool resume icon" /></Link>
+      </div>
     </main>
     
   )

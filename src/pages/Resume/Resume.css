@@ -1,3 +1,8 @@
 main > a {
   color: rgb(31, 29, 29)
 }
+
+main {
+  display: flex;
+  justify-content: center;
+}
