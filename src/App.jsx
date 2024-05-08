@@ -7,6 +7,7 @@ import Landing from './pages/Landing/Landing'
 import AboutMe from './pages/AboutMe/AboutMe'
 import Resume from './pages/Resume/Resume'
 import ContactMe from './pages/ContactMe/ContactMe'
+import MyProjects from './pages/MyProjects/MyProjects'
 
 //components
 import NavBar from './components/NavBar/NavBar'
@@ -24,6 +25,7 @@ function App() {
         <Route path='/aboutme' element={<AboutMe/>} />
         <Route path='/resume' element={<Resume />} />
         <Route path='/contactme' element={<ContactMe />} />
+        <Route path='/myprojects' element={<MyProjects />} />
       </Routes>
 
     </>

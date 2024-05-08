@@ -15,7 +15,7 @@ const NavBar = () => {
           <div className="nav-info-container">
           <NavLink to='/aboutme' >About me</NavLink>&nbsp;
           <NavLink to='/resume'>Resume</NavLink>&nbsp;
-          <NavLink>Projects</NavLink> &nbsp;
+          <NavLink to='/myprojects'>My Projects</NavLink> &nbsp;
           <NavLink to='/contactme'>Contact Info</NavLink>&nbsp;
           </div>
         </div>
