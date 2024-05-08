@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import Landing from './pages/Landing/Landing'
 import AboutMe from './pages/AboutMe/AboutMe'
 import Resume from './pages/Resume/Resume'
+import ContactMe from './pages/ContactMe/ContactMe'
 
 //components
 import NavBar from './components/NavBar/NavBar'
@@ -22,6 +23,7 @@ function App() {
         <Route path='/' element={<Landing />} />
         <Route path='/aboutme' element={<AboutMe/>} />
         <Route path='/resume' element={<Resume />} />
+        <Route path='/contactme' element={<ContactMe />} />
       </Routes>
 
     </>

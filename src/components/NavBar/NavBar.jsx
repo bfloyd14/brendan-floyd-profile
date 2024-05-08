@@ -16,7 +16,7 @@ const NavBar = () => {
           <NavLink to='/aboutme' >About me</NavLink>&nbsp;
           <NavLink to='/resume'>Resume</NavLink>&nbsp;
           <NavLink>Projects</NavLink> &nbsp;
-          <NavLink>Contact Info</NavLink>&nbsp;
+          <NavLink to='/contactme'>Contact Info</NavLink>&nbsp;
           </div>
         </div>
     </nav>
