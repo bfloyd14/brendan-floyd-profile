@@ -8,14 +8,13 @@ const NavBar = () => {
   return ( 
     <>
     <nav>
-      
         <div className="nav-link-container">
           <div className="name">
           <NavLink to='/'>BRENDAN FLOYD</NavLink>
           </div>
           <div className="nav-info-container">
           <NavLink to='/aboutme' >About me</NavLink>&nbsp;
-          <NavLink>Resume</NavLink>&nbsp;
+          <NavLink to='/resume'>Resume</NavLink>&nbsp;
           <NavLink>Projects</NavLink> &nbsp;
           <NavLink>Contact Info</NavLink>&nbsp;
           </div>

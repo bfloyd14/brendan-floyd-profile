@@ -1,8 +1,15 @@
 .nav-link-container {
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  font-weight: bold;
 }
 
 .nav-info-container{
   margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
