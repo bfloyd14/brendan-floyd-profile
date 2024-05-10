@@ -1,6 +1,12 @@
 //npm modules
 import { NavLink } from "react-router-dom"
 
+//assets
+import aboutIcon from '../../assets/icon/about-me-icon.png'
+import resumeIcon from '../../assets/icon/dark-resume-1.jpg'
+import projectIcon from '../../assets/icon/project-icon.jpg'
+import contactIcon from '../../assets/icon/contact-icon.png'
+
 //css
 import './NavBar.css'
 
@@ -13,16 +19,27 @@ const NavBar = () => {
           <NavLink to='/'>BRENDAN FLOYD</NavLink>
           </div>
           <div className="nav-info-container">
-          <NavLink to='/aboutme' >About me</NavLink>&nbsp;
-          <NavLink to='/resume'>Resume</NavLink>&nbsp;
-          <NavLink to='/myprojects'>My Projects</NavLink> &nbsp;
-          <NavLink to='/contactme'>Contact Info</NavLink>&nbsp;
+            <ul>
+          <li>
+            <NavLink to='/aboutme'><img src={aboutIcon} alt="" /></NavLink>&nbsp;
+          </li>
+          <li>
+          <NavLink to='/resume'><img src={resumeIcon} alt="" /></NavLink>&nbsp;
+          </li>
+          <li>
+          <NavLink to='/myprojects'><img src={projectIcon} alt="" /></NavLink> &nbsp;
+          </li>  
+          <li>
+          <NavLink to='/contactme'><img src={contactIcon} alt="" /></NavLink>&nbsp;  
+          </li>  
+              
+            </ul>
           </div>
         </div>
     </nav>
     </>
 
- )
+  )
 }
 
 export default NavBar

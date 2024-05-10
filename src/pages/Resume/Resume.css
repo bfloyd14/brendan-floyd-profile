@@ -1,8 +1,13 @@
 main > a {
-  color: rgb(31, 29, 29)
+  color: rgb(31, 29, 29),
 }
 
 main {
   display: flex;
   justify-content: center;
+}
+
+#resume {
+  height: 300px;
+  width: 300px;
 }
