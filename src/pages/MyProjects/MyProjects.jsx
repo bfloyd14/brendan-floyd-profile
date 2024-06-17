@@ -5,11 +5,11 @@ import styles from './MyProjects.module.css'
 
 const MyProjects = () => {
   return ( 
-    <main>
+    <>
       <div className={styles.container}>
-        <h1>My Projects</h1>
+        <h1>Projects</h1>
       </div>
-    </main>
+    </>
   )
 }
 

@@ -3,9 +3,8 @@ import { NavLink } from "react-router-dom"
 
 //assets
 import aboutIcon from '../../assets/icon/about-me-icon.png'
-import resumeIcon from '../../assets/icon/dark-resume-1.jpg'
-import projectIcon from '../../assets/icon/project-icon.jpg'
-import contactIcon from '../../assets/icon/contact-icon.png'
+import resumeIcon from '../../assets/icon/resume-dark.png'
+import projectIcon from '../../assets/icon/rocket1.png'
 
 //css
 import styles from './NavBar.module.css'
@@ -14,9 +13,13 @@ const NavBar = () => {
   return ( 
     <>
     <nav>
-        <div className={styles.container}>
+        <div className={styles.navBar}>
           <ul>
-            <NavLink to='/'>BRENDAN FLOYD</NavLink>
+            <NavLink  to='/'>
+            <div className={styles.name}>
+            BF
+            </div>
+            </NavLink>
             <li>
               <NavLink to='/aboutme'><img src={aboutIcon} alt="" /></NavLink>&nbsp;
             </li>

@@ -10,7 +10,7 @@ const Resume = () => {
   return ( 
     <>
       <div className={styles.container}>
-        <h1>Brendan's Resume</h1>
+        <h1>My Resume</h1>
         <a href={resume} target="blank"><img id='resume' src={resumeIcon} alt="a cool resume icon" /></a>
       </div>
     </>
