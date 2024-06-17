@@ -16,8 +16,6 @@ const Resume = () => {
         <a href={resume} target="blank"><img id='resume' src={resumeIcon} alt="a cool resume icon" /></a>
       </div>
     </>
-    
-    
   )
 }
 

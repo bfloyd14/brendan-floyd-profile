@@ -4,6 +4,20 @@
   align-items: center;
   flex-direction: column;
   margin-top: 20px;
+  animation-duration: 2s;
+  animation-name: slidein; 
+}
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
 }
 
 .container img {
@@ -13,9 +27,12 @@
   margin-top: 40px;
 }
 
+
+
 .container h1 {
   font-size: 48px;
   margin-bottom: 0;
+  
 }
 
 .icon {
@@ -31,6 +48,8 @@
 .info h2 {
   font-size: 32px;
 }
+
+
 
 .icon img {
   width: 75px;
