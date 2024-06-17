@@ -16,20 +16,17 @@ const NavBar = () => {
     <nav>
         <div className={styles.container}>
           <ul>
-          <NavLink to='/'>BRENDAN FLOYD</NavLink>
-          <li>
-            <NavLink to='/aboutme'><img src={aboutIcon} alt="" /></NavLink>&nbsp;
-          </li>
-          <li>
-          <NavLink to='/resume'><img src={resumeIcon} alt="" /></NavLink>&nbsp;
-          </li>
-          <li>
-          <NavLink to='/myprojects'><img src={projectIcon} alt="" /></NavLink> &nbsp;
-          </li>  
-          <li>
-          <NavLink to='/contactme'><img src={contactIcon} alt="" /></NavLink>&nbsp;  
-          </li>  
-            </ul>
+            <NavLink to='/'>BRENDAN FLOYD</NavLink>
+            <li>
+              <NavLink to='/aboutme'><img src={aboutIcon} alt="" /></NavLink>&nbsp;
+            </li>
+            <li>
+            <NavLink to='/resume'><img src={resumeIcon} alt="" /></NavLink>&nbsp;
+            </li>
+            <li>
+            <NavLink to='/myprojects'><img src={projectIcon} alt="" /></NavLink> &nbsp;
+            </li>  
+          </ul>
       </div>
     </nav>
     </>
