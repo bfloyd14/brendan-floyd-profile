@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.container img {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  margin-top: 40px;
+}
+
+.container h1 {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.icon {
+  display: flex;
+  height: auto;
+  gap: 30px;
+}
+
+.icon a {
+  margin: 0;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+  
+  margin-bottom: 25px;
+}
+
+.info {
+  text-align: center;
+}

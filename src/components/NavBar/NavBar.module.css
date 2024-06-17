@@ -1,6 +1,7 @@
 
 li img {
-  height: 40px;
+  width: 50px;
+  height: 45px;
 }
 
 nav{
@@ -28,7 +29,8 @@ a {
   align-items: center;
   display: flex;
   color: black;
-  width: 70%;
+  width: 100%;
   font-weight: bold;
   font-size: 24px;
+  margin-left: 10px;
 }

@@ -8,13 +8,13 @@ import projectIcon from '../../assets/icon/project-icon.jpg'
 import contactIcon from '../../assets/icon/contact-icon.png'
 
 //css
-import './NavBar.module.css'
+import styles from './NavBar.module.css'
 
 const NavBar = () => {
   return ( 
     <>
     <nav>
-        <div className="nav-link-container">
+        <div className={styles.container}>
           <ul>
           <NavLink to='/'>BRENDAN FLOYD</NavLink>
           <li>

@@ -1,12 +1,12 @@
 //npm modules
 
 //css
-import './MyProjects.module.css'
+import styles from './MyProjects.module.css'
 
 const MyProjects = () => {
   return ( 
     <main>
-      <div className="project-container">
+      <div className={styles.container}>
         <h1>My Projects</h1>
       </div>
     </main>
