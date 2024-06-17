@@ -10,9 +10,10 @@ li img {
 nav{
   background-color: white;
   width: 100%;
-  background-color: rgba(75, 116, 86, 0.6);
+  background-color: rgba(59, 101, 216, 0.6);
   border-bottom: 1px solid black;
   border-radius: 6px;
+  box-shadow: 3px 3px;
 }
 
 .name {
