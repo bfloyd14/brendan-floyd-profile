@@ -1,5 +1,3 @@
-//npm module
-import { Link } from "react-router-dom"
 
 //assets
 import resumeIcon from '../../assets/icon/resume-7.svg'

@@ -9,6 +9,7 @@ import profile from '../../assets/images/profile-pic.jpg'
 import linkedinIcon from '../../assets/icon/linkedin-icon.png'
 import githubIcon from '../../assets/icon/github.png'
 import gmailIcon from '../../assets/icon/gmail.png'
+import slackIcon from '../../assets/icon/slack.png'
 
 const Landing = () => {  
   
@@ -25,6 +26,7 @@ const Landing = () => {
             <a href="https://www.linkedin.com/in/brendan-floyd-b8805143/" target="_blank"><img src={linkedinIcon} alt="" /></a>
             <a href="https://github.com/bfloyd14" target="_blank"><img src={githubIcon} alt="" /></a>
             <a href="mailto: brendanflo1425@gmail.com" target="_blank"><img src={gmailIcon} alt="brendanflo1425@gmail.com" /></a>
+            <a href="https://brendanfloyd.slack.com" target="_blank"><img src={slackIcon} alt="Brendan Floyd's Slack username" /></a>
           </div>
         </div>
     </div>
