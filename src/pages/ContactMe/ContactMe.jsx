@@ -7,7 +7,7 @@ import githubIcon from '../../assets/icon/github.png'
 
 
 // css
-import './ContactMe.css'
+import './ContactMe.module.css'
 
 const ContactMe  = () => {
   return ( 

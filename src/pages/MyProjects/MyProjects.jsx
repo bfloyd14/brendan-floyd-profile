@@ -1,7 +1,7 @@
 //npm modules
 
 //css
-import './MyProjects.css'
+import './MyProjects.module.css'
 
 const MyProjects = () => {
   return ( 

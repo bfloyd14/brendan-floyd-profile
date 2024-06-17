@@ -8,18 +8,15 @@ import projectIcon from '../../assets/icon/project-icon.jpg'
 import contactIcon from '../../assets/icon/contact-icon.png'
 
 //css
-import './NavBar.css'
+import './NavBar.module.css'
 
 const NavBar = () => {
   return ( 
     <>
     <nav>
         <div className="nav-link-container">
-          <div className="name">
+          <ul>
           <NavLink to='/'>BRENDAN FLOYD</NavLink>
-          </div>
-          <div className="nav-info-container">
-            <ul>
           <li>
             <NavLink to='/aboutme'><img src={aboutIcon} alt="" /></NavLink>&nbsp;
           </li>
@@ -32,10 +29,8 @@ const NavBar = () => {
           <li>
           <NavLink to='/contactme'><img src={contactIcon} alt="" /></NavLink>&nbsp;  
           </li>  
-              
             </ul>
-          </div>
-        </div>
+      </div>
     </nav>
     </>
 
