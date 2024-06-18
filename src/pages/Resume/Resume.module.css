@@ -17,12 +17,27 @@
   width:50%;
   background-color: rgba(59, 101, 216, 0.6);
 }
-/* #resume img {
-  width: 300px;
-} */
+
 
 .container a {
   width: 500px;
+  
+}
+
+
+
+.container a:hover{
+  animation: up 1s ease ;
+  animation-fill-mode: forwards;
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0%) ; 
+  }
+  100% {
+    transform: translateY(-10%)
+  }
 }
 
 .container h1 {

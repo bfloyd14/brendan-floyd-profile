@@ -3,8 +3,8 @@
 }
 
 li img {
-  width: 50px;
-  height: 45px;
+  width: 60px;
+  height: 55px;
 }
 
 nav{
@@ -38,6 +38,8 @@ li {
   display: flex;
   margin: 0;
   gap: 20px;
+  height: 75px;
+  
 }
 
 a {
@@ -49,4 +51,10 @@ a {
   font-weight: bold;
   font-size: 24px;
   margin-left: 10px;
+  
+}
+
+ul li a:hover, ul li:hover, ul .name:hover{
+  background-color: grey;
+  border-radius: 6px;
 }

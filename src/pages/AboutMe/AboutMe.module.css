@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
+  height: auto;
   width: 100%;
 }
 
@@ -14,20 +14,64 @@
   flex-direction: column;
   border: 2px solid black;
   border-radius: 4px;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 0;
   margin-top: 75px;
-  width:50%;
+  width: 75%;
   background-color: rgba(59, 101, 216, 0.6);
+  text-align: center;
 }
 
 .info h1 {
   font-size: 48px;
+  margin:0;
 }
 
 .info p {
-  font-size: 24px;
-  width: 55%;
-  text-align: center;
-  font-weight: bold
-  ;
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+
+.info p:nth-child(1) {
+  width: 70%;
+  -webkit-animation: typing1 3s steps(31, end);
+  animation: typing 3s steps(31,end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+
+.info p:nth-child(2) {
+  width: 70%;
+  -webkit-animation: typing1 3s steps(31, end);
+  animation: typing 3s steps(31,end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing1 {
+  from {
+    width: 0
+  }
+  to {
+    width: 70%
+  }
+}
+
+@keyframes typing2 {
+  from {
+    width: 0
+  }
+  to {
+    width: 70%
+  }
+}
+
+@keyframes blink-caret {
+  from,to {border-color: transparent}
+  50% { border-color: white}
 }
