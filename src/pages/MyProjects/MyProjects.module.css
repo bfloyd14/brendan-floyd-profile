@@ -2,9 +2,64 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .container h1 {
   font-size: 48px;
+}
+
+.project {
+  border: 1px solid black;
+  max-width: 800px;
+  width: 700px;
+  max-height: 800px;
+  height: 700px;
+  background-color: rgba(153, 175, 235, 0.6) ;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+.project h3 {
+  font-size: 32px;
+}
+
+.project img {
+  width: 300px;
+  border-radius: 6px;
+}
+
+.project h4 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.project p {
+  font-size: 22px;
+  margin: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.project a:hover {
+  color: turquoise;
+}
+
+.container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.name a {
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
