@@ -32,7 +32,7 @@
   font-size: 28px;
   white-space: nowrap;
   overflow: hidden;
-  animation-name: typing1;
+  animation-name: typing1, blink-caret1;
   visibility: hidden;
   animation-duration: 1.5s;
   animation-timing-function: steps(40, end);
@@ -44,7 +44,7 @@
   font-size: 28px;
   white-space: nowrap;
   overflow: hidden;
-  animation-name: typing2;
+  animation-name: typing2, blink-caret2;
   visibility: hidden;
   animation-delay: 1.5s;
   animation-duration: 1.5s;
@@ -57,7 +57,7 @@
   font-size: 28px;
   white-space: nowrap;
   overflow: hidden;
-  animation-name: typing3;
+  animation-name: typing3, blink-caret3;
   visibility: hidden;
   animation-delay: 3s;
   animation-duration: 1.5s;
@@ -70,7 +70,7 @@
   font-size: 28px;
   white-space: nowrap;
   overflow: hidden;
-  animation-name: typing4;
+  animation-name: typing4, blink-caret4;
   visibility: hidden;
   animation-delay: 4.5s;
   animation-duration: 1.5s;
@@ -94,6 +94,26 @@
 @keyframes typing4 {
   from { width: 0 }
   to { width: 100%; visibility:visible}
+}
+
+@keyframes blink-caret1 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
+}
+
+@keyframes blink-caret2 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
+}
+
+@keyframes blink-caret3 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
+}
+
+@keyframes blink-caret4 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
 }
 
 
