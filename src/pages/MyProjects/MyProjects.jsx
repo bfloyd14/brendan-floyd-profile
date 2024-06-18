@@ -1,6 +1,9 @@
 //assets
 import alacena from '../../assets/images/alacena1.png' 
-import frugal from '../../assets/images/frugal-signin-SS.png' 
+import frugal from '../../assets/images/frugal.png' 
+import pizza from '../../assets/images/pizzapie-ss.png'
+import war from '../../assets/images/war-ss.png'
+import ttt from '../../assets/images/ttt-ss.png'
 
 //css
 import styles from './MyProjects.module.css'
@@ -32,6 +35,35 @@ const MyProjects = () => {
             </a>
             <h4>Technologies</h4>
             <p>JavaScript, Mongoose, Nodejs, Express, Node, MongoDB, Passport.js, Google OAuth, HTML, CSS</p>
+        </div>
+        <div className={styles.project}>
+          <h3>PizzaPie - Pizza Blog</h3>
+            <p><a href="https://github.com/bfloyd14/pizza-pie" target='blank'>PizzaPie GitHub</a></p>
+          <a href="https://pizza-pie.fly.dev/" target='blank'>
+            <img src={pizza} alt="" />
+            </a>
+            <h4>Technologies</h4>
+            <p>Python3, Django, HTML, CSS</p>
+        </div>
+        <div className={styles.project}>
+          <h3>War Card Game </h3>
+            <p><a href="https://github.com/bfloyd14/war" target='blank'>War GitHub</a></p>
+          <a href="https://warthecardgame-btf.netlify.app/" target='blank'>
+            <img src={war} alt="" />
+            </a>
+            <h4>Technologies</h4>
+            <p>JavaScript, HTML, CSS</p>
+            <h4>Fun Fact</h4>
+            <p>This is my first app I ever built</p>
+        </div>
+        <div className={styles.project}>
+          <h3>Tic-Tac-Toe</h3>
+            <p><a href="https://github.com/bfloyd14/ttt-drinking-edition" target='blank'>TicTacToe GitHub</a></p>
+          <a href="https://ttt-btf.netlify.app/" target='blank'>
+            <img src={ttt} alt="" />
+            </a>
+            <h4>Technologies</h4>
+            <p>JavaScript, HTML, CSS</p>
         </div>
       </div>
     </div>
