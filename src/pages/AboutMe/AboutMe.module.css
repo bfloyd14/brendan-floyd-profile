@@ -13,10 +13,11 @@
   align-items: center;
   flex-direction: column;
   border: 2px solid black;
-  border-radius: 4px;
-  padding: 40px 0 40px 0;
+  padding: 60px 0 60px 0;
   margin-top: 75px;
-  width: 75%;
+  width: 800px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px;
   background-color: rgba(153, 175, 235, 0.6);
   text-align: center;
 }
@@ -26,52 +27,73 @@
   margin:0;
 }
 
-.info p {
+.info .p1 {
   border-right: 3px solid white;
   font-size: 28px;
   white-space: nowrap;
   overflow: hidden;
-  margin: 0 auto;
-  letter-spacing: 1px;
-}
-
-.info p:nth-child(1) {
-  width: 70%;
-  -webkit-animation: typing1 3s steps(31, end);
-  animation: typing 3s steps(31,end);
-  -webkit-animation-fill-mode: forwards;
+  animation-name: typing1;
+  visibility: hidden;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(40, end);
+  animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-
-
-
-.info p:nth-child(2) {
-  width: 70%;
-  -webkit-animation: typing1 3s steps(31, end);
-  animation: typing 3s steps(31,end);
-  -webkit-animation-fill-mode: forwards;
+.info .p2 {
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: typing2;
+  visibility: hidden;
+  animation-delay: 1.5s;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(50);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.info .p3 {
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: typing3;
+  visibility: hidden;
+  animation-delay: 3s;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(50);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.info .p4 {
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: typing4;
+  visibility: hidden;
+  animation-delay: 4.5s;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(50, end);
+  animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
 @keyframes typing1 {
-  from {
-    width: 0
-  }
-  to {
-    width: 70%
-  }
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
 }
-
 @keyframes typing2 {
-  from {
-    width: 0
-  }
-  to {
-    width: 70%
-  }
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
+}
+@keyframes typing3 {
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
+}
+@keyframes typing4 {
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
 }
 
-@keyframes blink-caret {
-  from,to {border-color: transparent}
-  50% { border-color: white}
-}
+

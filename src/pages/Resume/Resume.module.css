@@ -11,10 +11,11 @@
   align-items: center;
   flex-direction: column;
   border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px;
   padding: 20px 0 20px 0;
   margin-top: 75px;
-  width:50%;
+  width: 700px;
   background-color: rgba(153, 175, 235, 0.6);
 }
 
