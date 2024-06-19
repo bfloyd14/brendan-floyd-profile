@@ -5,6 +5,7 @@
   flex-direction: column;
   animation-duration: 2s;
   animation-name: slidein; 
+  margin-top: 45px;
 }
 
 @keyframes slidein {
