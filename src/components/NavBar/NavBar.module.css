@@ -23,7 +23,9 @@ nav{
   margin-left: 20px;
 }
 
-.project {
+
+.project img {
+  width: 55px;
   margin-right: 20px;
 }
 
