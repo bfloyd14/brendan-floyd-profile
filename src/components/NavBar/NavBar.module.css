@@ -10,7 +10,7 @@ li img {
 nav{
   background-color: white;
   width: 100%;
-  background-color: rgba(153, 175, 235, 0.6);
+  background-color: rgba(99, 245, 165, 0.6);
   border-bottom: 1px solid black;
   border-radius: 6px;
   box-shadow: 3px 3px;
@@ -60,6 +60,15 @@ a {
 }
 
 ul li a:hover, ul li:hover, ul .name:hover{
-  background-color: grey;
-  border-radius: 6px;
+  animation: up .5s ease ;
+  animation-fill-mode: forwards;
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0%) ; 
+  }
+  100% {
+    transform: translateY(-4%)
+  }
 }
