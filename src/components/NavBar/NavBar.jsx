@@ -27,7 +27,7 @@ const NavBar = () => {
             <NavLink to='/resume'><img src={resumeIcon} alt="" /></NavLink>&nbsp;
             </li>
             <li>
-            <NavLink to='/myprojects'><img src={projectIcon} alt="" /></NavLink> &nbsp;
+            <NavLink to='/myprojects'><img className={styles.project} src={projectIcon} alt="" /></NavLink> &nbsp;
             </li>  
           </ul>
       </div>
