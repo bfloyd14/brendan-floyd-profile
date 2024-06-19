@@ -8,13 +8,35 @@ const AboutMe = () => {
       <div className={styles.container}>
         <div className={styles.info}>
         <h1>About Me</h1>
-        <p className={styles.p1}>Hi, I am Brendan Floyd, I have recently </p>
-        <p className={styles.p2}>changed my career of 12 years of sales </p>
+          <p className={styles.p1}>
+            Hi, I am Brendan Floyd, I have recently 
+          </p>
+          <p className={styles.p2}>
+            changed my career of 12 years of sales 
+          </p>
           <p className={styles.p3}>
           and management in the Beverage Alcohol 
           </p>
           <p className={styles.p4}>
-          space to Software Engineering.
+          industry to Software Engineering.
+          </p>
+          <p className={styles.p5}>
+            I am a former Division 1 Athlete
+          </p>
+          <p className={styles.p6}>
+            that is passionate about winning, teamwork
+          </p>
+          <p className={styles.p7}>
+            and problem solving.  I am a father of a
+          </p>
+          <p className={styles.p8}>
+            8-month little girl, so she keeps me occupied.
+          </p>
+          <p className={styles.p9}>
+            I also enjoy spending time with my wife, cooking,
+          </p>
+          <p className={styles.p10}>
+            hiking with our dogs and a great beer.
           </p>
         </div>
         <div className={styles.info}>

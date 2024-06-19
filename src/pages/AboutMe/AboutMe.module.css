@@ -22,8 +22,6 @@
   text-align: center;
 }
 
-
-
 .technology {
   display: flex;
   justify-content: center;
@@ -40,6 +38,7 @@
 .info h1 {
   font-size: 48px;
   margin:0;
+  margin-bottom: 20px;
 }
 
 .info p {
@@ -54,11 +53,12 @@
   overflow: hidden;
   animation-name: typing1, blink-caret1;
   visibility: hidden;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-timing-function: steps(40, end);
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 .info .p2 {
   border-right: 3px solid white;
   font-size: 28px;
@@ -66,12 +66,13 @@
   overflow: hidden;
   animation-name: typing2, blink-caret2;
   visibility: hidden;
-  animation-delay: 1.5s;
-  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-duration: 1s;
   animation-timing-function: steps(50);
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 .info .p3 {
   border-right: 3px solid white;
   font-size: 28px;
@@ -79,21 +80,106 @@
   overflow: hidden;
   animation-name: typing3, blink-caret3;
   visibility: hidden;
-  animation-delay: 3s;
-  animation-duration: 1.5s;
+  animation-delay: 2s;
+  animation-duration: 1s;
   animation-timing-function: steps(50);
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
 .info .p4 {
   border-right: 3px solid white;
   font-size: 28px;
   white-space: nowrap;
   overflow: hidden;
-  animation-name: typing4, blink-caret4;
+  animation-name: typing3, blink-caret3;
   visibility: hidden;
-  animation-delay: 4.5s;
-  animation-duration: 1.5s;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-timing-function: steps(50);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.info .p5 {
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: typing5, blink-caret5;
+  visibility: hidden;
+  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-timing-function: steps(50, end);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.info .p6 {
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: typing6, blink-caret6;
+  visibility: hidden;
+  animation-delay: 5s;
+  animation-duration: 1s;
+  animation-timing-function: steps(50, end);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.info .p7 {
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: typing7, blink-caret7;
+  visibility: hidden;
+  animation-delay: 6s;
+  animation-duration: 1s;
+  animation-timing-function: steps(50, end);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.info .p8 {
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: typing8, blink-caret8;
+  visibility: hidden;
+  animation-delay: 7s;
+  animation-duration: 1s;
+  animation-timing-function: steps(50, end);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.info .p9 {
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: typing9, blink-caret9;
+  visibility: hidden;
+  animation-delay: 8s;
+  animation-duration: 1s;
+  animation-timing-function: steps(50, end);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.info .p10 {
+  border-right: 3px solid white;
+  font-size: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation-name: typing10, blink-caret10;
+  visibility: hidden;
+  animation-delay: 9s;
+  animation-duration: 1s;
   animation-timing-function: steps(50, end);
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -103,15 +189,48 @@
   from { width: 0 }
   to { width: 100%; visibility:visible}
 }
+
 @keyframes typing2 {
   from { width: 0 }
   to { width: 100%; visibility:visible}
 }
+
 @keyframes typing3 {
   from { width: 0 }
   to { width: 100%; visibility:visible}
 }
+
 @keyframes typing4 {
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
+}
+
+@keyframes typing5 {
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
+}
+
+@keyframes typing6 {
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
+}
+
+@keyframes typing7 {
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
+}
+
+@keyframes typing8 {
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
+}
+
+@keyframes typing9 {
+  from { width: 0 }
+  to { width: 100%; visibility:visible}
+}
+
+@keyframes typing10 {
   from { width: 0 }
   to { width: 100%; visibility:visible}
 }
@@ -132,6 +251,36 @@
 }
 
 @keyframes blink-caret4 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
+}
+
+@keyframes blink-caret5 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
+}
+
+@keyframes blink-caret6 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
+}
+
+@keyframes blink-caret7 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
+}
+
+@keyframes blink-caret8 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
+}
+
+@keyframes blink-caret9 {
+  from, to {border-color: transparent}
+  50% {border-color: white}
+}
+
+@keyframes blink-caret10 {
   from, to {border-color: transparent}
   50% {border-color: white}
 }
