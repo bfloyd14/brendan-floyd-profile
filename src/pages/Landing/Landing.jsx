@@ -19,6 +19,7 @@ const Landing = () => {
       <h1>
         Brendan Floyd
       </h1>
+      <h2>A Software Engineer specializing in building relationships.</h2>
       <img src={profile} alt="" />
       <div className={styles.info}>
           <h2>Contact Info</h2>
