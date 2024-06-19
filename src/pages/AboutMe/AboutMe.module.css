@@ -33,6 +33,10 @@
   padding-top: 25px;
 }
 
+.technology img {
+  width: 80px;
+}
+
 .info h1 {
   font-size: 48px;
   margin:0;
