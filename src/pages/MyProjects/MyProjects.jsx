@@ -23,7 +23,7 @@ const MyProjects = () => {
             </a>
             <p><a href="https://github.com/juanrw7/alacena-front-end" target='blank'>Alacena GitHub</a></p>
             <h4>Contributors:</h4> 
-            <p className={styles.name}>Brendan Floyd and <a href="https://github.com/juanrw7">Juan Ramirez</a></p>
+            <p className={styles.name}>Brendan Floyd & <a href="https://github.com/juanrw7">Juan Ramirez</a></p>
         </div>
         <div className={styles.project}>
           <h3>Frugal - MEN Stack App</h3>

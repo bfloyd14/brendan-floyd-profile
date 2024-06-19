@@ -32,9 +32,9 @@
 
 .project {
   border: 1px solid black;
-  max-width: 800px;
-  width: 700px;
-  max-height: 800px;
+  max-width: 600px;
+  width: 550px;
+  max-height: 600px;
   height: 550px;
   background-color: rgba(153, 175, 235, 0.6) ;
   border-radius: 6px;
@@ -98,7 +98,7 @@
   justify-content: center;
   align-items: center;
   font-size: 22px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .name a {
@@ -107,4 +107,8 @@
   justify-content: center;
   align-items: center;
   
+}
+
+.name p {
+  width: 100%;
 }
