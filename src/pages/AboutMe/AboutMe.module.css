@@ -285,4 +285,68 @@
   50% {border-color: white}
 }
 
+@media screen and (max-width: 450px){
+  .info, .container {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
 
+  .info .p1, .info .p2, .info .p3, .info .p4, .info .p5, .info .p6, .info .p7, .info .p8, .info .p9, .info .p10 {
+    width: 80%;
+    font-size: 16px;
+  }
+
+  @keyframes typing1 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+  
+  @keyframes typing2 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+  
+  @keyframes typing3 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+  
+  @keyframes typing4 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+  
+  @keyframes typing5 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+  
+  @keyframes typing6 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+  
+  @keyframes typing7 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+  
+  @keyframes typing8 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+  
+  @keyframes typing9 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+  
+  @keyframes typing10 {
+    from { width: 0 }
+    to { width: 90%; visibility:visible}
+  }
+}
