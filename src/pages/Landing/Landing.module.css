@@ -62,3 +62,38 @@
   height: 75px;
   margin-bottom: 25px;
 }
+
+@media screen and (max-width: 450px) {
+  .container {
+    width:100%;
+    height: 100%;
+  }
+  
+  .container img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .container h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon img{
+    width: 100%;
+    height: 50%;
+  }
+
+  @keyframes slidein {
+    from {
+      translate: 150vw 0;
+      scale:200%
+    }
+    to {
+      translate: 0 0;
+      scale: 100% 1;
+    }
+  }
+}
