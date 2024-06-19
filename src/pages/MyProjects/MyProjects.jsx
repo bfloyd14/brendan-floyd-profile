@@ -17,53 +17,43 @@ const MyProjects = () => {
     </div>
       <div className={styles.container}>
         <div className={styles.project}>
-          <h3>Alacena - Recipe Search App</h3>
-            <p><a href="https://github.com/juanrw7/alacena-front-end" target='blank'>Alacena GitHub</a></p>
+          <h3>Alacena - Full Stack React App</h3>
           <a href="https://alacena-jb.netlify.app/" target='blank'>
             <img src={alacena} alt="" />
             </a>
-            <h4>Technologies</h4>
-            <p>JavaScript, React, Mongoose, Node, Express, Edamam API, Passport.js, MongoDB, HTML, CSS, Auth Token</p>
+            <p><a href="https://github.com/juanrw7/alacena-front-end" target='blank'>Alacena GitHub</a></p>
             <h4>Contributors:</h4> 
             <p className={styles.name}>Brendan Floyd and <a href="https://github.com/juanrw7">Juan Ramirez</a></p>
         </div>
         <div className={styles.project}>
-          <h3>Frugal - Personal Budgeting App</h3>
-            <p><a href="https://github.com/bfloyd14/frugal" target='blank'>Frugal GitHub</a></p>
+          <h3>Frugal - MEN Stack App</h3>
           <a href="https://frugal.fly.dev/" target='blank'>
             <img src={frugal} alt="" />
             </a>
-            <h4>Technologies</h4>
-            <p>JavaScript, Mongoose, Nodejs, Express, Node, MongoDB, Passport.js, Google OAuth, HTML, CSS</p>
+            <p><a href="https://github.com/bfloyd14/frugal" target='blank'>Frugal GitHub</a></p>
         </div>
         <div className={styles.project}>
-          <h3>PizzaPie - Pizza Blog</h3>
-            <p><a href="https://github.com/bfloyd14/pizza-pie" target='blank'>PizzaPie GitHub</a></p>
+          <h3>PizzaPie - Python3 Django App</h3>
           <a href="https://pizza-pie.fly.dev/" target='blank'>
             <img src={pizza} alt="" />
             </a>
-            <h4>Technologies</h4>
-            <p>Python3, Django, HTML, CSS</p>
+            <p><a href="https://github.com/bfloyd14/pizza-pie" target='blank'>PizzaPie GitHub</a></p>
         </div>
         <div className={styles.project}>
-          <h3>War Card Game </h3>
-            <p><a href="https://github.com/bfloyd14/war" target='blank'>War GitHub</a></p>
+          <h3>War Card Game - JavaScript</h3>
           <a href="https://warthecardgame-btf.netlify.app/" target='blank'>
             <img src={war} alt="" />
             </a>
-            <h4>Technologies</h4>
-            <p>JavaScript, HTML, CSS</p>
+            <p><a href="https://github.com/bfloyd14/war" target='blank'>War GitHub</a></p>
             <h4>Fun Fact</h4>
             <p>This is my first app I ever built</p>
         </div>
         <div className={styles.project}>
-          <h3>Tic-Tac-Toe</h3>
-            <p><a href="https://github.com/bfloyd14/ttt-drinking-edition" target='blank'>TicTacToe GitHub</a></p>
+          <h3>Tic-Tac-Toe - JavaScript</h3>
           <a href="https://ttt-btf.netlify.app/" target='blank'>
             <img src={ttt} alt="" />
             </a>
-            <h4>Technologies</h4>
-            <p>JavaScript, HTML, CSS</p>
+            <p><a href="https://github.com/bfloyd14/ttt-drinking-edition" target='blank'>TicTacToe GitHub</a></p>
         </div>
       </div>
     </div>
