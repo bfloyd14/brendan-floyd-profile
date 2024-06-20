@@ -17,7 +17,7 @@
   border-radius: 6px;
   box-shadow: 2px 2px 2px 2px;
   width: 600px;
-  background-color: rgba(106, 212, 154, 0.6);
+  background-color: rgb(91, 91, 91, 0.6);
   padding-bottom: 15px;
 }
 
@@ -58,7 +58,7 @@
   border-radius: 6px;
   box-shadow: 2px 2px 2px 2px;
   width: 500px;
-  background-color: rgba(106, 212, 154, 0.6);
+  background-color: rgb(91, 91, 91, 0.6);
   display:flex;
   justify-content: center;
   flex-direction: column;
