@@ -24,7 +24,7 @@ nav{
 }
 
 
-.project img {
+.project {
   width: 55px;
   margin-right: 20px;
 }
@@ -70,5 +70,35 @@ ul li a:hover, ul li:hover, ul .name:hover{
   }
   100% {
     transform: translateY(-4%)
+  }
+}
+@media screen and (max-width: 450px){
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+  }
+
+  .name {
+    margin: 0;
+  }
+
+  .project{
+    margin: 0;
+  }
+
+  ul li a:hover, ul li:hover, ul .name:hover{
+    animation: up .5s ease ;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes up {
+    0% {
+      transform: translateY(0%) ; 
+    }
+    100% {
+      transform: translateY(-4%)
+    }
   }
 }

@@ -13,14 +13,21 @@
   border: 2px solid black;
   border-radius: 6px;
   box-shadow: 2px 2px 2px 2px;
-  padding: 20px 0 20px 0;
+  padding: 20px 0 0 0;
   margin-top: 45px;
-  width: 550px;
+  width: 500px;
   background-color: rgba(99, 245, 165, 0.6);
+}
+
+.container h1 {
+  margin:0;
 }
 
 .container a {
   width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container a:hover{
@@ -44,11 +51,48 @@
 
 @media screen and (max-width: 450px){
   .container, .info {
-    width: 95%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 5px;
     margin-top: 15px;
+  }
+
+  .info {
+    width: 85%;
+  }
+
+  .info h1 {
+    margin: 0;
+    font-size: 42px ;
+  }
+
+  .info img, .container a {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 650px){
+  .container, .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 15px;
+  }
+
+  .info {
+    width: 85%;
+  }
+
+  .info h1 {
+    margin: 0;
+    font-size: 42px ;
+  }
+
+  .info img, .container a {
+    width: 300px;
+    height: 300px;
   }
 }
