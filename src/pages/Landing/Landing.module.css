@@ -8,6 +8,19 @@
   margin-top: 45px;
 }
 
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px;
+  width: 600px;
+  background-color: rgba(106, 212, 154, 0.6);
+  padding-bottom: 15px;
+}
+
 @keyframes slidein {
   from {
     translate: 150vw 0;
@@ -41,21 +54,32 @@
 .info {
   text-align: center;
   height: 200px;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px;
+  width: 500px;
+  background-color: rgba(106, 212, 154, 0.6);
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .info h2 {
   font-size: 32px;
-  margin-bottom: 25px;
 }
 
 .icon {
   display: flex;
-  height: 80px;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 
 .icon a {
-  margin: 0;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon img {
@@ -88,13 +112,27 @@
     font-size: 20px;
   }
 
+  .name, .info {
+    width: 90%;
+    height: 80%;
+  }
+
+  .name h1 {
+    font-size: 42px;
+  }
+
+  .name h2 {
+    font-size: 16px;
+    width: 75%
+  }
+
   .icon img{
-    width: 100%;
+    width: 75%;
     height: 50%;
   }
 
   .icon {
-    gap: 20px;
+    gap: 10px;
   }
 
   @keyframes slidein {
@@ -143,6 +181,20 @@
 
   .icon {
     gap: 20px;
+  }
+
+  .name, .info {
+    width: 90%;
+    height: 80%;
+  }
+
+  .name h1 {
+    font-size: 42px;
+  }
+
+  .name h2 {
+    font-size: 16px;
+    width: 75%
   }
 
   @keyframes slidein {

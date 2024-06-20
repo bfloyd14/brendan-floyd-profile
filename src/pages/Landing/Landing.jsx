@@ -16,10 +16,13 @@ const Landing = () => {
   return ( 
     <>
     <div className={styles.container}>
+      <div className={styles.name}>
       <h1>
         Brendan Floyd
       </h1>
-      <h2>A Software Engineer specializing in building relationships.</h2>
+      <h2>
+        A Software Engineer specializing in building relationships.</h2>
+      </div>
       <img src={profile} alt="" />
       <div className={styles.info}>
           <h2>Contact Info</h2>
