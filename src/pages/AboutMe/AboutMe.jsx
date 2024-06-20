@@ -21,10 +21,10 @@ const AboutMe = () => {
           industry to Software Engineering.
           </p>
           <p className={styles.p5}>
-            I am a former Division 1 Athlete
+            I am a former Division 1 Athlete that
           </p>
           <p className={styles.p6}>
-            that is passionate about winning, teamwork
+            is passionate about winning, teamwork
           </p>
           <p className={styles.p7}>
             and problem solving.  I am a father of a
@@ -33,10 +33,10 @@ const AboutMe = () => {
             8-month little girl, so she keeps me occupied.
           </p>
           <p className={styles.p9}>
-            I also enjoy spending time with my wife, cooking,
+            I enjoy spending time with my wife, cooking, 
           </p>
           <p className={styles.p10}>
-            hiking with our dogs and a great beer.
+          hiking with our dogs and a great beer.
           </p>
         </div>
         <div className={styles.info}>

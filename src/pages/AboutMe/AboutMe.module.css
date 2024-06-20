@@ -15,7 +15,7 @@
   border: 2px solid black;
   padding: 60px 0 60px 0;
   margin-top: 45px;
-  width: 800px;
+  width: 600px;
   border-radius: 6px;
   box-shadow: 2px 2px 2px 2px;
   background-color: rgba(99, 245, 165, 0.6);
@@ -28,11 +28,11 @@
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
-  padding-top: 25px;
 }
 
 .technology img {
   width: 80px;
+  margin-top: 15px;
 }
 
 .info h1 {
@@ -48,7 +48,7 @@
 
 .info .p1 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing1, blink-caret1;
@@ -61,7 +61,7 @@
 
 .info .p2 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing2, blink-caret2;
@@ -75,7 +75,7 @@
 
 .info .p3 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing3, blink-caret3;
@@ -89,7 +89,7 @@
 
 .info .p4 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing3, blink-caret3;
@@ -103,7 +103,7 @@
 
 .info .p5 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing5, blink-caret5;
@@ -117,7 +117,7 @@
 
 .info .p6 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing6, blink-caret6;
@@ -131,7 +131,7 @@
 
 .info .p7 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing7, blink-caret7;
@@ -145,7 +145,7 @@
 
 .info .p8 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing8, blink-caret8;
@@ -159,7 +159,7 @@
 
 .info .p9 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing9, blink-caret9;
@@ -173,7 +173,7 @@
 
 .info .p10 {
   border-right: 3px solid white;
-  font-size: 28px;
+  font-size: 26px;
   white-space: nowrap;
   overflow: hidden;
   animation-name: typing10, blink-caret10;
