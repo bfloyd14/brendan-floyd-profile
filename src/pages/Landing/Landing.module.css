@@ -17,7 +17,7 @@
   border-radius: 6px;
   box-shadow: 2px 2px 2px 2px;
   width: 600px;
-  background-color: rgb(91, 91, 91, 0.6);
+  background-color: rgba(152, 146, 146, 0.6);
   padding-bottom: 15px;
 }
 
@@ -58,7 +58,7 @@
   border-radius: 6px;
   box-shadow: 2px 2px 2px 2px;
   width: 500px;
-  background-color: rgb(91, 91, 91, 0.6);
+  background-color: rgba(152, 146, 146, 0.6);
   display:flex;
   justify-content: center;
   flex-direction: column;
@@ -81,6 +81,22 @@
   justify-content: center;
   align-items: center;
 }
+
+.icon a:hover {
+  animation: up .5s ease ;
+  animation-fill-mode: forwards;
+  transform: scale(1.20), translate(5px, 0);
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0%) ; 
+  }
+  100% {
+    transform: translateY(-4%)
+  }
+}
+
 
 .icon img {
   width: 75px;

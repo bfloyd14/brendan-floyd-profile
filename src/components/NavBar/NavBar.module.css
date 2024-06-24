@@ -10,10 +10,11 @@ li img {
 nav{
   background-color: white;
   width: 100%;
-  background-color: rgb(91, 91, 91, 0.6);
+  background-color: rgba(152, 146, 146, 0.6);
   border-bottom: 1px solid black;
   border-radius: 6px;
   box-shadow: 3px 3px 3px;
+  transition: transform 500ms, box-shadow 500ms, ease-in-out;
 }
 
 .name {
@@ -21,6 +22,7 @@ nav{
   border-radius: 50%;
   padding: 8px;
   margin-left: 20px;
+  transition: transform 500ms, box-shadow 500ms, ease-in-out;
 }
 
 
@@ -38,6 +40,7 @@ ul{
   padding: 0;
   height:75px;
   margin: 0;
+  transition: transform 500ms, box-shadow 500ms, ease-in-out;
 }
 
 
@@ -46,7 +49,7 @@ li {
   display: flex;
   margin-right: 5px;
   height: 75px;
-  
+  transition: transform 500ms, box-shadow 500ms, ease-in-out;
 }
 
 a {
@@ -57,11 +60,13 @@ a {
   color: black;
   font-weight: bold;
   font-size: 24px;
+  transition: transform 500ms, box-shadow 500ms, ease-in-out;
 }
 
 ul li a:hover, ul li:hover, ul .name:hover{
   animation: up .5s ease ;
   animation-fill-mode: forwards;
+  transform: scale(1.20), translate(5px, 0)
 }
 
 @keyframes up {
